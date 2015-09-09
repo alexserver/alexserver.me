@@ -3,7 +3,8 @@
 }
 html {
   font-size: 100%;
-  font-family: 'Raleway', 'Open Sans', 'Droid Sans', 'Source Sans Pro', 'Source Hans Sans', 'Helvetica Neue', 'Segoe UI', Verdana, Tahoma, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'Microsoft YaHei UI', 'WenQuanYi Micro Hei', sans-serif;
+  font-family: 'Open Sans', 'Droid Sans', 'Source Sans Pro', 'Source Hans Sans', 'Helvetica Neue', 'Segoe UI', Verdana, Tahoma, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'Microsoft YaHei UI', 'WenQuanYi Micro Hei', sans-serif;
+  font-weight: 200;
 }
 ol {
   padding-left: 1.5rem;
@@ -105,7 +106,7 @@ blockquote p {
   margin-top: 1em;
 }
 .gist .gist-file .gist-meta a {
-  font-weight: normal;
+  font-weight: 200;
 }
 .gist .gist-file .gist-meta ahover {
   text-decoration: underline;
@@ -226,6 +227,9 @@ pre .javascript .function {
 #content .article-content {
   padding-top: 0.5rem;
 }
+#content .article-content h1 {
+  font-weight: 300;
+}
 #content .article-content h2 {
   font-weight: lighter;
   font-size: 1.3rem;
@@ -246,7 +250,7 @@ pre .javascript .function {
   margin-left: -0.3rem;
 }
 #content .article-content p {
-  font-weight: normal;
+  font-weight: 200;
 }
 #content figure.highlight {
   margin-right: 0;
