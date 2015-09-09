@@ -175,11 +175,14 @@ pre .javascript .function {
 #banner {
   overflow: auto;
   position: relative;
+  display: table;
+  width: 100%;
 }
 #banner #site-title,
-#banner #site-description {
+#banner #site-description,
+#banner #social-links {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 #banner #site-title {
   font-size: 3rem;
@@ -198,7 +201,28 @@ pre .javascript .function {
   font-size: small;
 }
 #banner #site-description {
-  padding-left: 1.5rem;
+  padding: 5px 7px;
+  background-color: #a3c961;
+  color: #fff;
+  font-style: italic;
+}
+#banner #social-links {
+  list-style: none;
+  color: #fff;
+  padding: 0;
+}
+#banner #social-links li {
+  display: inline-block;
+  padding: 5px;
+  background-color: #6495ed;
+}
+#banner #social-links li a {
+  color: #fff;
+  padding: 2px 7px;
+}
+#banner #social-links li a:hover {
+  color: #6495ed;
+  background-color: #fff;
 }
 #content {
   text-autospace: ideograph-alpha;
@@ -206,6 +230,9 @@ pre .javascript .function {
 #content .meta .article-title {
   font-weight: lighter;
   margin-bottom: 0;
+}
+#content .meta .article-title a {
+  color: #f520b5;
 }
 #content .meta .article-date {
   color: #a9a9a9;
@@ -289,4 +316,13 @@ pre .javascript .function {
   word-break-cjk: break-word;
   width: 1rem;
   letter-spacing: 1rem;
+}
+.table-cell {
+  display: table-cell;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
 }
