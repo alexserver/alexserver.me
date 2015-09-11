@@ -3,7 +3,7 @@
 }
 html {
   font-size: 100%;
-  font-family: 'Open Sans', 'Droid Sans', 'Source Sans Pro', 'Source Hans Sans', 'Helvetica Neue', 'Segoe UI', Verdana, Tahoma, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'Microsoft YaHei UI', 'WenQuanYi Micro Hei', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 200;
 }
 ol {
@@ -28,11 +28,11 @@ blockquote p {
   margin-left: auto;
 }
 .highlight {
-  background: #2d2d2d;
-  border-style: solid;
-  border-width: 1px 0;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 7px;
   overflow: auto;
-  color: #ccc;
+  color: #888;
   padding: 0.5rem;
   vertical-align: baseline;
 /*line-height font-size * line-height*/
@@ -41,9 +41,19 @@ blockquote p {
 .gist .gist-file .gist-data .line-numbers {
   color: #666;
 }
+code {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  padding: 3px;
+  color: #639;
+  font-family: 'Cutive Mono', 'Source Code Pro', 'DejaVu Sans Mono', 'Droid Sans Mono', Menlo, 'Courier', monoscape;
+  font-weight: 400;
+}
 .highlight .line {
+  font-family: 'Cutive Mono', 'Source Code Pro', 'DejaVu Sans Mono', 'Droid Sans Mono', Menlo, 'Courier', monoscape;
+  font-weight: 400;
   height: 1.5rem;
-  font-family: 'Source Code Pro', 'DejaVu Sans Mono', 'Droid Sans Mono', Menlo, Consolas, Monaco, 'Lucida Console', 'Courier', monoscape;
 }
 .highlight pre {
   border: none;
@@ -75,7 +85,7 @@ blockquote p {
 .gist {
   border-style: solid;
   border-width: 1px 0;
-  background: #2d2d2d;
+  background: #fafafa;
 }
 .gist .gist-file {
   border: none;
@@ -99,7 +109,7 @@ blockquote p {
   border: none;
 }
 .gist .gist-file .gist-meta {
-  background: #2d2d2d;
+  background: #fafafa;
   color: #999;
   text-shadow: 0 0;
   padding: 0;
@@ -185,14 +195,17 @@ pre .javascript .function {
   vertical-align: baseline;
 }
 #banner #site-title {
+  font-family: 'Raleway', sans-serif;
   font-size: 3rem;
-  font-weight: lighter;
+  font-weight: 100;
   margin-right: 1.5rem;
 }
 #banner #site-title a {
   color: #6495ed;
 }
 #banner #site-subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
   position: absolute;
   left: 55px;
   top: 90px;
@@ -201,12 +214,16 @@ pre .javascript .function {
   font-size: small;
 }
 #banner #site-description {
-  padding: 5px 7px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  padding: 5px;
   background-color: #a3c961;
   color: #fff;
   font-style: italic;
 }
 #banner #social-links {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
   list-style: none;
   color: #fff;
   padding: 0;
@@ -218,7 +235,7 @@ pre .javascript .function {
 }
 #banner #social-links li a {
   color: #fff;
-  padding: 2px 7px;
+  padding: 2px 5px;
 }
 #banner #social-links li a:hover {
   color: #6495ed;
@@ -277,7 +294,7 @@ pre .javascript .function {
   margin-left: -0.3rem;
 }
 #content .article-content p {
-  font-weight: 200;
+  font-weight: 300;
 }
 #content figure.highlight {
   margin-right: 0;
